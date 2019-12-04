@@ -5,7 +5,6 @@
 body {
   height: 1513px;
   width: 1351px;
-  /* border: 1px solid red; */
 
   background-image: url(./images/starfield-banner.jpg);
 }
@@ -13,11 +12,9 @@ body {
   height: 1513px;
   width: 1351px;
   margin: 0 62.5px;
-  border: 1px solid blue;
 
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   justify-items: center;
 }
 
@@ -25,9 +22,6 @@ body {
   .header {
     height: 118px;
     width: 1222px;
-    /* margin: 0 62.5px;
-     */
-    /* border: 1px dashed green; */
 
     display: flex;
     flex-direction: row;
@@ -36,7 +30,6 @@ body {
   .top-logo {
     height: 100px;
     width: 136px;
-    /* border: 1px dashed red; */
 
     align-items: center;
     display: flex;
@@ -46,13 +39,11 @@ body {
     height: 40px;
     width: 650px;
     margin-left: 220px;
-
-    /* border: 1px dashed red;  */
   }
   .header-table {
     height: 35px;
     width: 860px;
-    /* border: 1px dashed red;  */
+
     padding: 5px;
     position: absolute;
     top: 74px;
@@ -69,8 +60,6 @@ body {
     position: absolute;
     right: 75px;
     background-color: rgb(58, 57, 57);
-
-    /* border: 1px dashed red;  */
   }
 
 table {
@@ -139,10 +128,6 @@ a {
 
     margin: 6 7 7 0;
     position: relative;
-
-    /* display: flex; */
-    /* flex-direction: column-reverse;
-    align-content: flex-end; */
   }
   .middle {
     height: 279px;
@@ -150,7 +135,6 @@ a {
     
     margin: 3px;
     position: relative;
-    /* border: 1px dashed brown; */
   }
   .small {
     height: 279px;
@@ -158,7 +142,6 @@ a {
 
     margin: 5;
     position: relative;
-    /* border: 1px dashed chartreuse; */
   }
 
   .special-one {
@@ -286,7 +269,6 @@ a {
   position: absolute;
   left: 0;
   bottom: 33px;
-  /* height: 20px; */
   padding: 8px;
   z-index: 1;
 }
@@ -343,7 +325,6 @@ a {
  }
 .footer-table table td {
   text-align: center;
-  /* color: darkblue; */
   border: 0 solid white;
 }
 .footer-table table td a{
