@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 1513px;
+  width: 1351px;
+  /* border: 1px solid red; */
+
+  background-image: url(./images/starfield-banner.jpg);
+}
+.container {
+  height: 1513px;
+  width: 1351px;
+  margin: 0 62.5px;
+  border: 1px solid blue;
+
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  justify-items: center;
+}
+
+
+  .header {
+    height: 118px;
+    width: 1222px;
+    /* margin: 0 62.5px;
+     */
+    /* border: 1px dashed green; */
+
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .top-logo {
+    height: 100px;
+    width: 136px;
+    /* border: 1px dashed red; */
+
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+  }
+  .guid-table {
+    height: 40px;
+    width: 650px;
+    margin-left: 220px;
+
+    /* border: 1px dashed red;  */
+  }
+  .header-table {
+    height: 35px;
+    width: 860px;
+    /* border: 1px dashed red;  */
+    padding: 5px;
+    position: absolute;
+    top: 74px;
+    left: calc(50vw - 430px);
+
+    background-color: rgb(58, 57, 57);
+  }
+  .search {
+    height: 40px;
+    width: 160px;
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 75px;
+    background-color: rgb(58, 57, 57);
+
+    /* border: 1px dashed red;  */
+  }
+
+table {
+  width: 100%;
+  height: 100%;
+  border: 0 solid white;
+
+  border-collapse: collapse;
+}
+td { 
+  text-align: center;
+  border-right: 1px solid seashell;
+}
+table :last-child {
+  border: 0 solid white;
+}
+a {
+  text-decoration: none;
+  color: azure;
+}
+.search-buttom {
+  background-color: rgb(58, 57, 57);
+  height: 40px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.search-buttom img {
+  width: 30px;
+  height: 40px;
+  float: right;
+}
+
+.search-buttom input {
+  background-color: rgb(58, 57, 57);
+  height: 40px;
+  width: 65px;
+  border: 0;
+}
+
+  .content {
+    height: 1172px;
+    width: 1222px;
+    /* border: 1px dashed green;  */
+  }
+
+  .up-half {
+    height: 586px;
+    width: 1222px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    /* border: 1px solid red; */
+  }
+
+  .down-half {
+    height: 586px;
+    width: 1222px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    /* border: 1px solid blue; */
+  }
+  .large {
+    width: 604px;
+    height: 572px;
+
+    margin: 6 7 7 0;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    /* border: 1px dashed blue; */
+  }
+  .middle {
+    height: 279px;
+    width: 604px;
+    
+    margin: 3px;
+    position: relative;
+    /* border: 1px dashed brown; */
+  }
+  .small {
+    height: 279px;
+    width: 295px;
+
+    margin: 5;
+    position: relative;
+    /* border: 1px dashed chartreuse; */
+  }
+
+  .special-one {
+    position: relative;
+    top: -290px;
+    left: 610px;
+
+    margin: 6 0 6 6;
+    /* border: 1px dashed rgb(13, 74, 240);   */
+  }
+
+  .middle img {
+    height: 279px;
+    width: 604px;
+  }
+  .small img{
+    height: 279px;
+    width: 295px;
+  }
+.url-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nasa-event {
+  height: 259px;
+  width: 275px;
+  margin: 5px;
+  padding: 10px;
+
+  background-color: rgb(78, 198, 238);
+  color: white;
+}
+.image-content-title {
+  font-size: 14px;
+  color: black;
+  background-color: rgb(113, 167, 202);
+
+  position: absolute;
+  left: 0;
+  bottom: 34px;
+  height: 30px;
+  padding: 6px;
+  /* float: left; */
+  z-index: 1;
+}
+.image-content {
+  font-size: 18px;
+  color: black;
+  background-color: rgb(214, 223, 230);
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* height: 30px; */
+  padding: 6px;
+  /* float: left; */
+  z-index: 1;
+}
+/* p {
+  font-size: 20px;
+  color: black;
+  background-color: silver;
+
+  display: block;
+  z-index: 3;
+} */
+
+  .footer {
+    height: 223px;
+    width: 1222px;
+  }
+  .more-story {
+    height: 36px;
+    width: 1222px;
+
+    position: relative;
+    top: 26px;
+
+    background-color: darkblue;
+    
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .foot-logo {
+    height: 57px;
+    width: 450px;
+    
+    margin: 56 0 0 20;
+    display: flex;
+    color: white;
+  }
+.footer-table {
+  height: 16px;
+  width: 900px;
+
+  position: relative;
+  left: 300px;
+  top: 20px;
+}
+
+ .footer-table  table{
+   border: 0 solid white;
+ }
+.footer-table table td {
+  text-align: center;
+  /* color: darkblue; */
+  border: 0 solid white;
+}
+.footer-table table td a{
+  text-decoration: none;
+  color:  #3eabdc;
+  font-size: 14px;
+}
